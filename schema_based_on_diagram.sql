@@ -58,3 +58,7 @@ CREATE TABLE invoice_items (
     FOREIGN KEY (treatment_id)
     REFERENCES treatments(id)
 );
+
+CREATE INDEX medical_histories_patient_id_asc ON medical_histories(patient_id ASC);
+CREATE INDEX medical_treatments_medical_id_asc ON medical_treatments(medical_id ASC);
+CREATE INDEX medical_treatments_treatment_id_asc ON medical_treatments(treatment_id ASC);
