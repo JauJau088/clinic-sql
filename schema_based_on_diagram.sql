@@ -25,6 +25,24 @@ CREATE TABLE invoices (
     REFERENCES medical_histories(id)
 );
 
+CREATE TABLE treatments (
+    id INT PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+    type VARCHAR(100),
+    name VARCHAR(100)
+);
+
+CREATE TABLE medical_treatments (
+    medical_id INT,
+    treatment_id INT,
+    CONSTRAINT fk_medical
+    FOREIGN KEY (medical_id)
+    REFERENCES medical_histories(id),
+
+    CONSTRAINT fk_treatment
+    FOREIGN KEY (treatment_id)
+    REFERENCES treatments(id) 
+);
+
 CREATE TABLE invoice_items (
     id INT PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
     unit_price DEC,
