@@ -19,11 +19,11 @@ This repository includes files with plain SQL that can be used to recreate a dat
 - Twitter: [@jaujauj](https://twitter.com/jaujauj)
 - LinkedIn: [Jauhari Alafi](https://linkedin.com/in/jauhari-alafi/)
 
-👤 **.......**
+👤 **Camile**
 
-- GitHub: [@JauJau088](https://github.com/JauJau088)
-- Twitter: [](https://twitter.com/jaujauj)
-- LinkedIn: [](https://linkedin.com/in/jauhari-alafi/)
+- GitHub: [@camilevahviraki](https://github.com/camilevahviraki)
+- Twitter: [@camilevahviraki](https://twitter.com/CamileVahviraki)
+- LinkedIn: [camilevahviraki](https://www.linkedin.com/in/camile-vahviraki)
 
 ## 🤝 Contributing
 
