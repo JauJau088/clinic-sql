@@ -1,7 +1,8 @@
 # Clinic SQL Database
 
-> Clinic SQL Database is a relational database pair-programming exercise to create the data structure for a vet clinic.
+> Clinic SQL Database is a relational database pair-programming exercise to create the data structure for a vet clinic from the following Entity Relationship Diagram:
 
+![](./clinic_diagram.png)
 
 ## Getting Started
 
